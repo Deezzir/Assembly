@@ -4,21 +4,6 @@ This repository contains three simple loop programs written for x86_64 and AArch
 ### Loop program
 The first program prints "Loop" message n-times determined by the min and max constants:
 ```
-Loop
-Loop
-Loop
-Loop
-Loop
-Loop
-Loop
-Loop
-Loop
-Loop
-```
-
-### Loop2 program
-The second program does almost the same, except it also prints the loop index:
-```
 Loop: 0
 Loop: 1
 Loop: 2
@@ -29,6 +14,24 @@ Loop: 6
 Loop: 7
 Loop: 8
 Loop: 9
+```
+
+### Loop2 program
+The second program does almost the same, except it can also print 2 digit numbers:
+```
+...
+Loop:  5
+Loop:  6
+Loop:  7
+Loop:  8
+Loop:  9
+Loop: 10
+Loop: 11
+Loop: 12
+Loop: 13
+Loop: 14
+Loop: 15
+...
 ```
 
 ### Table program
