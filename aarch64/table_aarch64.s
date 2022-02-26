@@ -46,6 +46,7 @@ iloop:
 
 // Insert first number into the buffer
 first:
+    // save return location on the stack
     sub     sp, sp, 16
     str     x30, [sp]
 
@@ -57,6 +58,7 @@ first:
     adr     x17, mltp+1
     strb    w3 , [x17]
 
+    // remove return location on the stack
     ldr     x30, [sp]
     add     sp, sp, 16
     ret
